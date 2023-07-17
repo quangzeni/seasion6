@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            border: 0px;
+            box-sizing: border-box;
+            font-size: 100%;
+        }
+        main{
+            width: 100%;
+            height: 900px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .header{
+            width: 100%;
+            height: 50px;
+            background-color: #333333;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        .nav{
+            width: 100%;
+            height: 40px;
+            background-color: #F1F1F1;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+        }
+        .nav>ul{
+            list-style-type: none;
+        }
+        .nav>ul>li{
+            display: inline-block;
+            font-size: 13px;
+            padding: 5px;
+        }
+        .welcome{
+            width: 100%;
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        .welcome>h2{
+            font-size: 25px;
+            margin: 10px;
+        }
+        .welcome>p{
+            font-size: 13px;
+            margin-bottom: 20px;
+        }
+        .welcome>button{
+            padding: 2px 5px;
+            border: 1px solid black;
+            border-radius: 3px;
+            font-size: 12px;
+        }
+        .featured{
+            width: 100%;
+            height: 200px;
+            padding: 0px 60px;
+        }
+        .featured>h3{
+            text-align: center;
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        .box{
+            display: flex;
+            justify-content: space-between;     
+            text-align: center;
+            font-size: 12px;      
+        }
+        .box>div>{
+            font-size: 11px;
+        }
+        .box>div>img{
+            width: 170px;
+        }
+        .about{
+            width: 100%;
+            height: 100px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 0px 10px;
+        }
+        .about>p{
+            text-indent: 20px;
+        }
+        .footer{
+            width: 100%;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #333333;
+            font-size: 11px;
+            color: white;
+        }
+        
+    </style>
+</head>
+<body>
+    <main>
+        <div class="header">
+            Porfolio Website
+        </div>
+        <div class="nav">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Por</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </div>
+        <div class="welcome">
+            <h2>Lorem ipsum dolor, sit amet consectetur </h2>
+            <p>adipisicing elit. Voluptate, veritatis ea autem t eius, dignissimos accusantium illo molestiae doloremque veniam error reiciendis?
+            </p>
+            <button>View Porfolio</button>
+        </div>
+        <div class="featured">
+            <h3>Featured  Work</h3>
+            <div class="box">
+                <div><img src="https://ied.eu/wp-content/uploads/2018/04/entrepreneur-1.jpg" alt=""><br>project</div>
+                <div><img src="https://ied.eu/wp-content/uploads/2018/04/entrepreneur-1.jpg" alt=""><br>project</div>
+                <div><img src="https://ied.eu/wp-content/uploads/2018/04/entrepreneur-1.jpg" alt=""><br>project</div>
+                <div><img src="https://ied.eu/wp-content/uploads/2018/04/entrepreneur-1.jpg" alt=""><br>project</div>
+            </div>
+            
+        </div>
+        <div class="about">
+            <h3>About Me</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta saepe, iure numquam la
+                borum blanditiis ex sint cumque, eius quo consequuntur quibusdam! Sequi excepturi qu
+                as nemo ad nihil ipsum voluptatem odio.</p>
+        </div>
+        <div class="footer">
+            <p>&copy 2023 Porfolio Website</p>
+        </div>
+    </main>
+    
+</body>
+</html>
